@@ -15,6 +15,11 @@ import { Router } from '@angular/router';
     MatIconModule,
     MatButtonModule,
   ],
+  template:`             <div class="app-container">
+  <app-orbit-viewer></app-orbit-viewer>
+  <app-body-details></app-body-details>
+</div>`
+  
   
 })
 export default class HomeComponent {
